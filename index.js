@@ -3,7 +3,7 @@ const app = express();
 
 app.get("/", (req, res) => {
   const name = process.env.NAME || "GCP Starter Base";
-  res.send(`Hello ${name}!`);
+  res.send(`Try again. Hello ${name}!`);
 });
 
 const port = parseInt(process.env.PORT) || 8080;
