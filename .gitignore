@@ -1,0 +1,24 @@
+# Node.js specific
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+.DS_Store
+
+# Build artifacts
+dist/
+build/
+coverage/
+
+# IDE specific
+.idea/
+.vscode/
+
+# Docker specific
+Dockerfile.local # If you have a local Dockerfile not used for deployment
+*.dockerignore # If you have multiple .dockerignore files
+
+# GCP specific (if using .gcloudignore, these might be redundant)
+.gcloudignore
+gcloud-build-logs/
