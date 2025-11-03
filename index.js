@@ -6,7 +6,11 @@ app.get("/", (req, res) => {
   res.send(`Hello ${name}!`);
 });
 
+app.get("/andy", (req, res) => {
+  res.send(`Hello Andy!`);
+});
+
 const port = parseInt(process.env.PORT) || 8080;
 app.listen(port, () => {
-  console.log(`helloworld: listening on port ${port}`);
+  console.log(`gcp-starter-base: listening on port ${port}`);
 });
